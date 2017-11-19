@@ -1,8 +1,8 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "inpnmod",
+  "name": "大日本ペイント帝国海軍MOD",
+  "description": "大日本ペイント帝國海軍運營 #ホモの惑星サーバー 専用MOD minecraft.inpn.info",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
