@@ -1,32 +1,3 @@
 {
-    "parent":"block/dirt",
-    "textures":{
-        "default":"inpnmod:items/unko_b"
-    },
-    "elements":[
-        {
-            "from":[0,0,0],
-            "to"[16,16,16],
-            "faces":{
-                "down":{
-                    "texture":"#default"
-                },
-                "up":{
-                    "texture":"#default"
-                },
-                "north":{
-                    "texture":"#default"
-                },
-                "south":{
-                    "texture":"#default"
-                },
-                "west":{
-                    "texture":"#default"
-                },
-                "east":{
-                    "texture":"#default"
-                }
-            }
-        }
-    ]
+    "parent":"inpnmod:block/unko_block"
 }

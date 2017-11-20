@@ -51,8 +51,8 @@ public class INPNMod
 	public static ModMetadata meta;
 
 	public static Item unko = null;
-    public static Block unko_block = null;
-    public static Item unko_block_item = null;
+	public static Block unko_block = null;
+	public static Item unko_block_item = null;
 	public static Item cookie = null;
 	public static Item inm_sword = null;
 	public static CreativeTabs ctab = new CreativeTab("INPN");
@@ -70,12 +70,12 @@ public class INPNMod
 				.setUnlocalizedName("unko")
 				.setRegistryName(MODID,"unko")
 				.setMaxStackSize(64);
-		unko_block = new Block(Material.ROCK)
+		unko_block = new Block(Material.CLAY)
+				.setCreativeTab(ctab)
+                .setUnlocalizedName("unko_block")
                 .setRegistryName(MODID, "unko_block")
-                .setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
-                .setUnlocalizedName("blockSample")
-                .setHardness(1.5F)
-                .setResistance(1.0F);
+                .setHardness(0.5F)
+                .setResistance(0.1F);
 		unko_block_item = new ItemBlock(unko_block)
 				.setCreativeTab(ctab)
 				.setUnlocalizedName("unko_block")

@@ -1,31 +1,20 @@
 {
-    "parent":"block/dirt",
+    "parent":"minecraft:block/slime",
     "textures":{
-        "default":"inpnmod:items/unko_b"
+        "texture": "inpnmod:blocks/unko_block",
+        "normal": "inpnmod:blocks/unko_block"
     },
-    "elements":[
+    "elements": [
         {
-            "from":[0,0,0],
-            "to"[16,16,16],
-            "faces":{
-                "down":{
-                    "texture":"#default"
-                },
-                "up":{
-                    "texture":"#default"
-                },
-                "north":{
-                    "texture":"#default"
-                },
-                "south":{
-                    "texture":"#default"
-                },
-                "west":{
-                    "texture":"#default"
-                },
-                "east":{
-                    "texture":"#default"
-                }
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
             }
         }
     ]
