@@ -1,0 +1,23 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "X",
+        "X",
+        "Z"
+    ],
+    "key":{
+        "X":{
+            "item":"inpnmod:cookie",
+            "data":0
+        },
+        "Z":{
+            "item":"minecraft:stick",
+            "data":0
+        }
+    },
+    "result":{
+        "item":"inpnmod:inm_sword",
+        "data":0,
+        "count":1
+    }
+}
