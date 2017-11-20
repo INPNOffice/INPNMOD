@@ -101,7 +101,7 @@ public class INPNMod
 
 		if(event.getSide().isClient()) {
 			ModelLoader.setCustomModelResourceLocation(unko,0,new ModelResourceLocation("inpnmod:unko"));
-            ModelLoader.setCustomModelResourceLocation(unko_block_item, 0, new ModelResourceLocation(unko_block_item.getRegistryName(), "inpnmod:unko_block"));
+            ModelLoader.setCustomModelResourceLocation(unko_block_item, 0, new ModelResourceLocation("inpnmod:unko_block"));
 			ModelLoader.setCustomModelResourceLocation(cookie,0,new ModelResourceLocation("inpnmod:cookie"));
 			ModelLoader.setCustomModelResourceLocation(inm_sword,0,new ModelResourceLocation("inpnmod:inm_sword"));
 		}
